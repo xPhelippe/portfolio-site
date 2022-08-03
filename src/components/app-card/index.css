@@ -1,0 +1,94 @@
+
+.AppCards h1 {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.app-splitter {
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction:row;
+    gap:1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.vl {
+    border-left: 0.25rem solid #1F4327;
+    border-radius: 0.25rem;
+    height: 5rem;
+}
+
+.app-splitter img{
+    height: min(13rem,50vw);
+    border-radius: 0.5rem;
+}
+
+.app-splitter a {
+    text-decoration: none;
+}
+
+.app-splitter .content {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.app-splitter .content p {
+    text-align: left;
+}
+
+.app-splitter .buttons {
+    display:flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    width: 100%;
+}
+
+.app-splitter .skills {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+@media screen and (max-width:1000px) {
+    .app-splitter {
+        flex-direction: column;
+        
+    }
+
+    .vl {
+        border-top: 0.25rem solid #1F4327;
+        border-left: 0rem solid #1F4327;
+        width: 5rem;
+        height: 0.25rem;
+    }
+
+    .AppCards h1 {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .app-splitter .content p {
+        text-align: center;
+    }
+
+    .app-splitter .buttons {
+
+        justify-content:center;
+
+    }
+
+    .app-splitter .skills {
+        justify-content: center;
+    }
+    
+
+}
