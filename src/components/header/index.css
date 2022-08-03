@@ -1,0 +1,44 @@
+.phil-navbar {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    position: absolute;
+    z-index: 9;
+}
+
+.phil-header {
+    position: relative;
+}
+
+.homePage p {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.phil-header button:hover {
+    color: #1F4327
+}
+
+.headerContainer {
+    position: relative;
+}
+
+.title-text {
+    /* z-index: 1;     */
+    color: #f2f2f2;
+    font-size: min(6rem, 10vw);
+    top: 30%;
+    left:20%; 
+    position: absolute;
+    /* background-color: rgba(1,1,1,0.4); */
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    font-family: 'Public Sans', sans-serif;
+
+}
+
+.homePage .bio {
+    margin: 1rem;
+}
