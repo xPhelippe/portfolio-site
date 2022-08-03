@@ -1,0 +1,13 @@
+.lostPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.lostPage img {
+    width:40vw;
+    border-radius: 1rem;
+}
