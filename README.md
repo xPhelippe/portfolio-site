@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the README for the portfolio website hosted at [xphelippe.com](https://xphelippe.com). The site is hosted in the cloud on an AWS EC2 instance along with several other applications. NGINX is used to reroute traffic to the appropriate subdomain.
 
-## Available Scripts
+# Frameworks and Libraries Used
 
-In the project directory, you can run:
+### [React](https://reactjs.org/)
 
-### `npm start`
+A framework for creating front end websites. Was used to create component view for the different pages on the website.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### [Material UI](https://mui.com/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A component library used in conjunction with React to ease the styling aspect of creating UIs. Components such as buttons, radio buttons, input fields, and many more were used to speed up development of the site.
 
-### `npm test`
+### [React Router](https://reactrouter.com/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A React library for creating and routing to pages on the website. Used to create the different of the site.
 
-### `npm run build`
+### [emailJS](https://www.emailjs.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A Node library for sending emails using javascript. Removes the necesity of maintaining a backend server for sending out emails.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Resources I found helpful along the way
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### [Footer Tutorial](https://www.youtube.com/watch?v=5WoQm7tR6EA)
 
-### `npm run eject`
+A useful youtube video that gave me some ideas for how I wanted to structure my footer
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### [Slideshow Tutorial](https://tinloof.com/blog/how-to-build-an-auto-play-slideshow-with-react)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+An amazing tutorial on how to make a slideshow that I was able to follow along with very easily. Only changes I made were changing pxl -> rem for responsiveness and replacing the slide div with a custom component.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### [Freecodecamp React Portfolio Site](https://www.youtube.com/watch?v=bmpI252DmiI)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+I love freeCodeCamp and this tutorial was a great inspiration for how to structure my website. I learned how to implement my own icons and how to create a contact form with it.
 
-## Learn More
+# Future Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+I like where the site is right now, but I also thought of a few nice-to-haves that would take an extensive amount of time to add to the project. If I revisit the design of the site, I might add these in
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-   CMS to be able to add more apps to my Apps page and potentially even make the ability to add pages
+-   logon so anyone could manage the new CMS
+-   google maps on the footer
+-   HW page for hardware projects I may do in the future
+-   resources page for coding resources I like
