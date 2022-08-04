@@ -1,8 +1,7 @@
 .slideshow {
     margin: 0 auto;
     overflow: visible;
-    max-width: 100%px;
-    height: 50vh;
+    max-width: 100%;
     margin-bottom: 2rem;
 }
 
@@ -14,9 +13,10 @@
 .slide {
     display: inline-block;
 
-    height: 45vh;
+    /* height: 45vh; */
     width: 100%;
     border-radius: 1rem;
+    margin-bottom: 1rem;
 }
 
 /* Buttons */
