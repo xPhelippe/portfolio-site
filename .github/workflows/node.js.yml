@@ -33,4 +33,5 @@ jobs:
         REMOTE_USER: ${{secrets.REMOTE_USER}}
         REMOTE_IP: ${{secrets.REMOTE_IP}}
         REMOTE_SSK_KEY: ${{secrets.REMOTE_SSH_KEY}}
+        REMOTE_PASS: ${{secrets.REMOTE_PASS}}
       run: ./cicd/publish.sh
