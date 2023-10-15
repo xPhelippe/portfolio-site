@@ -1,3 +1,5 @@
 #!/bin/bash
 
-scp -r -i $REMOTE_SSK_KEY ../build $REMOTE_USER@$REMOTE_IP:~/newbuilds
+echo logging in and copying files
+
+scp -r -p "$REMOTE_PASS" ../build $REMOTE_USER@$REMOTE_IP:~/newbuilds
