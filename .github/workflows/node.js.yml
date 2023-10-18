@@ -4,14 +4,12 @@
 name: Node.js CI
 
 on:
-  push:
-    branches: [ "master" ]
   pull_request:
     types: "closed"
     branches: [ "master" ]
 
 jobs:
-  if_merged:
+  build-and-push:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     strategy:
