@@ -12,7 +12,7 @@ function HomePage(props) {
                 <div className="bio">
                     <p>
                         an avid developer who loves using STEM to make art and
-                        help other people. Is this the final test?
+                        help other people.
                     </p>
                     <br />
                     <p>
