@@ -43,4 +43,4 @@ jobs:
         username: ${{ secrets.REMOTE_USER }}
         key: ${{ secrets.REMOTE_SSH_KEY }}
         port: ${{ secrets.PORT }}
-        script: ~/update_website.sh build xphelippe.com
+        script: sudo ~/update_website.sh build xphelippe.com
