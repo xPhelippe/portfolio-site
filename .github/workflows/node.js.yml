@@ -36,3 +36,11 @@ jobs:
         port: 22
         source: "./build"
         target: "~/"
+    - name: run command to update files on server
+      uses: appleboy/ssh-action@v1.0.0
+      with:
+        host: ${{ secrets.REMOTE_IP }}
+        username: ${{ secrets.REMOTE_USER }}
+        key: ${{ secrets.REMOTE_SSH_KEY }}
+        port: ${{ secrets.PORT }}
+        script: ~/update_website.sh build xphelippe.com
